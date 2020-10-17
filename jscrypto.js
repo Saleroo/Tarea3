@@ -1,3 +1,13 @@
+// ==UserScript==
+// @name         New Userscript
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  try to take over the world!
+// @author       You
+// @match        file:///C:/Users/Milenko/Desktop/Tarea_Cripto/Tarea3/PagWeb.html
+// @grant        none
+// @require      https://raw.githubusercontent.com/behdadahmadi/jscrypt/master/jscrypt.js
+//@require       https://raw.githubusercontent.com/nodejs/node/v14.14.0/lib/crypto.js
 'use strict';
 var fs = require('fs');
 var crypto = require('crypto');
